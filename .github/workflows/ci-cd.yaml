@@ -29,3 +29,5 @@ jobs:
     with:
       environment: ${{ github.event_name == 'workflow_dispatch' && inputs.environment || (github.ref_name == 'main' && 'prod' || github.ref_name) }}
     secrets: inherit
+
+# idk bro 
