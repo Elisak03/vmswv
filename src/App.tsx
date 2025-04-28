@@ -7,8 +7,7 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
-import { AlertTriangle } from "lucide-react";
+
 
 type BuildEnvironment = "dev" | "test" | "uat" | "prod" | undefined;
 
@@ -84,7 +83,7 @@ export const App = () => {
             </p>
           </CardFooter>
         </Card>
-        
+
       </div>
     </div>
   );
